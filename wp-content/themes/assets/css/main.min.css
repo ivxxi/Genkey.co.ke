@@ -3303,6 +3303,9 @@ section#services h2 {
         line-height: 25px;
         width: 150px;
     }
+    #gallery {
+        width: 100%;
+    }
 }
 
 section#services p:not(.tag) {
