@@ -3624,6 +3624,9 @@ section#archives #archives-container .archives-slide .archives-img-container {
 }
 
 @media (max-width: 500px) {
+    section#archives #archives-container #archives-caption {
+        left: 60%;
+    }
     section#archives #archives-container .archives-slide .archives-img-container {
         left: 60%;
         width: 60%;
