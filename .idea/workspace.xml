@@ -1,11 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="afc9fce6-586f-4478-afa2-14b9810446d7" name="Default Changelist" comment="" />
+    <list default="true" id="afc9fce6-586f-4478-afa2-14b9810446d7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/assets/css/couresel.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/archive/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/services/index.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/wp-content/themes/assets/css/main.min.css" root0="SKIP_INSPECTION" />
@@ -17,6 +27,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -33,24 +44,24 @@
       <workItem from="1606809037880" duration="3521000" />
       <workItem from="1606982582190" duration="5864000" />
       <workItem from="1607071465935" duration="1392000" />
+      <workItem from="1626844362344" duration="1978000" />
+      <workItem from="1626846970397" duration="139000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-  <component name="WindowStateProjectService">
-    <state x="420" y="99" key="FileChooserDialogImpl" timestamp="1606988449634">
-      <screen x="0" y="0" width="1280" height="689" />
-    </state>
-    <state x="420" y="99" key="FileChooserDialogImpl/0.0.1280.689/1920.0.1920.1050@0.0.1280.689" timestamp="1606988449634" />
-    <state x="351" y="0" width="638" height="702" key="find.popup" timestamp="1606987472703">
-      <screen x="0" y="0" width="1280" height="689" />
-    </state>
-    <state x="351" y="0" width="638" height="702" key="find.popup/0.0.1280.689/1920.0.1920.1050@0.0.1280.689" timestamp="1606987472703" />
-    <state width="600" height="428" key="javadoc.popup" timestamp="1606813593560">
-      <screen x="0" y="0" width="1280" height="689" />
-    </state>
-    <state width="600" height="428" key="javadoc.popup/0.0.1280.689/1920.0.1920.1050@0.0.1280.689" timestamp="1606813593560" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
