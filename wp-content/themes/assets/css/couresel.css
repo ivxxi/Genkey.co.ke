@@ -57,7 +57,7 @@ body {
     height:25px;
     line-height:22px;
     margin:-15px 10px 0 10px;
-    background-color:black;
+    background-color: #ffffff;
     color:white;
     font-family:'Arial';
     font-weight:bold;
@@ -79,4 +79,17 @@ body {
 .carousel > input:checked ~ label ~ label ~ label:after {
     right:0;
     content:'\00BB';
+}
+
+@media only screen and (max-width: 480px) {
+    .carousel {
+        position:relative;
+        width:300px;
+        border:10px solid #d4af37;
+        margin:60px auto;
+    }
+    .carousel > img {
+        display:none;
+        width:100%;
+    }
 }

@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="afc9fce6-586f-4478-afa2-14b9810446d7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/assets/css/couresel.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/archive/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/services/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/assets/css/couresel.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/assets/css/couresel.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +27,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -46,6 +43,7 @@
       <workItem from="1607071465935" duration="1392000" />
       <workItem from="1626844362344" duration="1978000" />
       <workItem from="1626846970397" duration="139000" />
+      <workItem from="1626852089306" duration="633000" />
     </task>
     <servers />
   </component>
