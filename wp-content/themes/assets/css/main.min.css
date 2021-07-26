@@ -152,7 +152,7 @@ textarea {
     -webkit-appearance: none
 }
 
-::-webkit-file-upload-button {
+ ::-webkit-file-upload-button {
     -webkit-appearance: button;
     font: inherit
 }
@@ -749,6 +749,14 @@ body[data-handheld="true"] #preloader #preloader-counter p {
 }
 
 @media screen and (max-width: 420px) {
+    #wipe,
+    #wipe #wipe-logo,
+    #wipe-underlay {
+        transform: translateY(0%);
+    }
+}
+
+@media screen and (max-width: 500px) {
     body[data-handheld="true"] #preloader #preloader-counter p {
         font-size: 10vw
     }
@@ -808,6 +816,15 @@ body[data-handheld="true"] #preloader #preloader-counter p {
 @media screen and (max-width: 500px) {
     #logo-img {
         display: none;
+    }
+    #wrapper {
+        display: block;
+        width: 100%;
+        min-height: 100vh;
+        top: 0;
+        left: 0;
+        will-change: scroll-position;
+        z-index: 2
     }
 }
 
@@ -1901,6 +1918,13 @@ h3 span {
         font-size: 15px;
         line-height: 25px
     }
+    h3 span {
+        display: block;
+        position: relative;
+        opacity: 0;
+        transform: translateY(2vh);
+        will-change: transform, opacity
+    }
 }
 
 h3 span {
@@ -2091,6 +2115,9 @@ section#showreel #showreel-link .circle-container {
         left: 65%;
         height: 200px;
         width: 200px;
+    }
+    body[data-page="home"][data-sindex="1"][data-handheld="true"] section#intro #intro-content.reveal #tag-container {
+        transform: translateY(0%)
     }
 }
 
@@ -3233,7 +3260,7 @@ section#services {
     margin: 5vh auto 25vh auto;
     width: 100vw;
     min-width: 300px !important;
-    min-height: 600px !important
+    min-height: 250px !important
 }
 
 section#services>div:not(#gallery) {
@@ -3303,8 +3330,17 @@ section#services h2 {
         line-height: 25px;
         width: 150px;
     }
-    #gallery {
+    #gallery,
+    .gallery-img {
+        display: none;
+    }
+    .gallery-img2 {
+        margin: 20px 0 20px 55px;
+        width: 250px;
+    }
+    .imgs {
         width: 100%;
+        height: 70%;
     }
 }
 
@@ -3315,6 +3351,13 @@ section#services p:not(.tag) {
 
 section#services~section#links {
     margin-top: 35%
+}
+
+@media (min-width: 500px) {
+    #gallery-2,
+    .gallery-img2 {
+        display: none;
+    }
 }
 
 #gallery {
@@ -3632,7 +3675,7 @@ section#archives #archives-container .archives-slide .archives-img-container {
         width: 60%;
     }
     section#archives #archives-container #archives-caption h2 span {
-        font-size: 30px;
+        display: none;
     }
     section#archives #archives-container #archives-arrows-container #archives-arrows-container-inner {
         left: -15%;
