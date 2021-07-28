@@ -3389,9 +3389,6 @@ section#services h2 {
         width: 300px;
         margin: 30px 0 30px 0;
     }
-    #our-services-mobile {
-        left: 2%;
-    }
     #work-desc-mobile {
         margin-bottom: 50px;
     }
@@ -3399,7 +3396,7 @@ section#services h2 {
         width: 300px;
     }
     section#work-mobile h2 {
-        font-size: 25px;
+        font-size: 20px;
         line-height: 29px;
         max-width: 300px;
     }
@@ -3407,6 +3404,16 @@ section#services h2 {
         font-size: 15px;
         line-height: 25px;
         width: 300px;
+    }
+    p.tag {
+        font-size: 15px;
+    }
+    #logo-img-mobile {
+        width: 50px;
+        height: 50px;
+        position: relative;
+        top: 25px;
+        left: 25px;
     }
 }
 
@@ -3422,7 +3429,8 @@ section#services~section#links {
 @media (min-width: 500px) {
     #blurb-mobile,
     #tag-mobile,
-    #work-mobile {
+    #work-mobile,
+    #logo-img-mobile {
         display: none;
     }
 }
