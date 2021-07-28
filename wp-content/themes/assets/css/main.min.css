@@ -3173,7 +3173,11 @@ section#work #work-title span {
         display: none;
     }
     section#services,
-    section#services.reveal {
+    section#services.reveal,
+    section#intro,
+    section#intro.reveal,
+    section#showreel,
+    section#showreel.reveal {
         display: none;
     }
 }
