@@ -3172,6 +3172,10 @@ section#work #work-title span {
     #gallery {
         display: none;
     }
+    section#services,
+    section#services.reveal {
+        display: none;
+    }
 }
 
 section#work #work-img-container,
@@ -3180,10 +3184,11 @@ section#work #work-img-container .work-img,
     padding-top: 300px;
 }
 
-section#services,
+
+/* section#services,
 section#services.reveal {
     display: none;
-}
+} */
 
 section#work #work-img-container {
     display: block;
